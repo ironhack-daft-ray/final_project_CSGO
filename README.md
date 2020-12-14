@@ -2,8 +2,30 @@
 *Rayan Hawili - Ironhack DAFT Final Project - December 2020*
 
 ---
+### PROJECT SUMMARY
 
-### Game Introduction - CSGO
+This project aims to help players upskill their game and make use of data to play at a more pro level in the domains of:
+- MAP KNOWLEDGE
+- STRATEGY
+- IN-GAME ECONOMY MANAGEMENT*.
+
+**DATA SOURCES:**
+
+Primary first hand data (directly from CSGO developer Valve Corporation) were unobtainable due to GDPR.
+
+Thus secondary hand data had to be made use of. I've utilized as a foundation the data found in this Kaggle [dataset](https://www.kaggle.com/skihikingkevin/csgo-matchmaking-damage) dating from 2018, covering just over 1400 competitive matchmaking matches. The data here was at the time extracted from competitive matchmaking replays submitted to csgo-stats.
+
+**FOLDER CONTENT:**
+
+- [Presentation - PDF](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_presentation_final_pdf.pdf) -- PDF version of the presentation for quick access
+- [Presentation - Keynote](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_presentation_final.key) -- presentation slides for the CSGO project
+- [Tableau Notebook](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_heatmap.twbx) -- map and strategy recommender
+- [Jupyter Notebook](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_IGES_final.ipynb) -- first steps toward a game economy recommender
+- [Data Source Zip](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/mm_master_demos.csv.zip) -- unzipping needed to run the Jupyter notebook
+
+---
+
+### GAME INTRODUCTION - CSGO
 
 Counter-Strike: Global Offensive (CSGO) is a first-person shooter that has become a global phenomenon and one of the hallmarks of the esport world. 
 
@@ -25,10 +47,31 @@ Players start out a match with a specified amount, and will receive more as the 
 
 ---
 
-**FOLDER CONTENT:**
+### LEXICON
 
-- [Presentation - PDF](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_presentation_final_pdf.pdf) -- PDF version of the presentation for quick access
-- [Presentation - Keynote](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_presentation_final.key) -- presentation slides for the CSGO project
-- [Tableau Notebook](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_heatmap.twbx) -- map and strategy recommender
-- [Jupyter Notebook](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_IGES_final.ipynb) -- first steps toward a game economy recommender
-- [Data Source Zip](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/mm_master_demos.csv.zip) -- unzipping needed to run the Jupyter notebook
+**file:**
+*the file name that the demo was scraped from. This is a unique field for each match.*
+
+**map:**
+*the Valve official map the match was played on.*
+
+**date:**
+*date the match was played (unverified if they are correct).*
+
+**round:**
+*the round that the duel took place.*
+
+**tick:**
+*the current tick in the demo the entry took place. A tick is represented as a state in the game, Valve's competitive matchmaking sets every match at 64 ticks which represents that there are 64 states within each second of the game.*
+
+**seconds:**
+*the converted tick to seconds within the game since match start.*
+
+**att_team:**
+*the team that the attacking player is on that dealt damage to the victim. Usually Team 1 and 2 but in some recorded pro matches, can have custom team name e.g Games Academy.*
+
+**vic_team:**
+*the team that the victim player is on that received damage from the attacker.*
+
+**att_side:**
+*the side that the attacker was on. Can be Terrorist or CounterTerrorist.*
