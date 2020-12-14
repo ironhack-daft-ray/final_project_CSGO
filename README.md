@@ -1,5 +1,5 @@
 # A strategy guide to pro play in CSGO
-Rayan Hawili - Ironhack DAFT Final Project - December 2020
+*Rayan Hawili - Ironhack DAFT Final Project - December 2020*
 
 ---
 
