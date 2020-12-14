@@ -4,10 +4,12 @@
 ---
 ### PROJECT SUMMARY
 
+**GOAL:**
+
 This project aims to help players upskill their game and make use of data to play at a more pro level in the domains of:
-- MAP KNOWLEDGE
-- STRATEGY
-- IN-GAME ECONOMY MANAGEMENT
+- Map Knowledge
+- Strategy
+- In-Game Economy Management
 
 **DATA SOURCES:**
 
