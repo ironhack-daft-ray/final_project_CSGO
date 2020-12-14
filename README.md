@@ -1,3 +1,5 @@
+![CSGOlogo](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/csgo_steampicture.png)
+
 # A strategy guide to pro play in CSGO
 *Rayan Hawili - Ironhack DAFT Final Project - December 2020*
 
