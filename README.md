@@ -1,4 +1,4 @@
-# A strategy guide to upskilling in CSGO
+# A strategy guide to pro play in CSGO
 Rayan Hawili - Ironhack DAFT Final Project - December 2020
 
 ---
