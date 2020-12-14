@@ -27,7 +27,8 @@ Players start out a match with a specified amount, and will receive more as the 
 
 **FOLDER CONTENT:**
 
-- [Keynote Presentation](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_presentation_final.key) -- presentation slides for the CSGO project
+- [Presentation - PDF](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_presentation_final_pdf.pdf) -- PDF version of the presentation for quick access
+- [Presentation - Keynote](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_presentation_final.key) -- presentation slides for the CSGO project
 - [Tableau Notebook](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_heatmap.twbx) -- map and strategy recommender
 - [Jupyter Notebook](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/RH_CSGO_IGES_final.ipynb) -- first steps toward a game economy recommender
 - [Data Source Zip](https://github.com/ironhack-daft-ray/final_project_CSGO/blob/main/mm_master_demos.csv.zip) -- unzipping needed to run the Jupyter notebook
