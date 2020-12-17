@@ -47,7 +47,7 @@ In regular matchmaking, if both teams secure 15 rounds then the match ends in a 
 
 **GAME ECONOMICS:**
 
-Players start out a match with a specified amount, and will receive more as the match goes on by getting kills or going for the objectives. Money can then be used at the start of rounds to buy weapons and equipment, any residual money is taken over to the next round (reset at side-switch) to a maximum of $16000.
+Players start out a match with a specified amount of money, and will receive more as the match goes on by getting kills or going for the objectives. Money can then be used at the start of rounds to buy weapons and equipment, any residual amount is taken over to the next round (reset at side-switch) to a maximum of $16000.
 
 ---
 
