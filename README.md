@@ -35,7 +35,7 @@ Counter-Strike: Global Offensive (CSGO) is a first-person shooter that has becom
 
 **GAME OBJECTIVE:**
 
-In Competitive Demolition Mode, two teams of 5 players each battle each: the Terrorists and the Counter-Terrorists.
+In Competitive Demolition Mode, two teams of 5 players each face off: the Terrorists and the Counter-Terrorists.
 - As a Terrorist you are tasked with eliminating the opposition or planting the C4 bomb before the round time limit is reached and securing its detonation.
 - As a Counter-Terrorist you are tasked with eliminating the opposition, defusing the bomb if planted, or stalling the Terrorist attack long enough until the round time limit is reached.  
 
