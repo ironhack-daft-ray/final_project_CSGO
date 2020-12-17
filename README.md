@@ -51,7 +51,7 @@ Players start out a match with a specified amount of money, and will receive mor
 
 ---
 
-### LEXICON
+### DATA SOURCE LEXICON
 
 **file:**
 *the file name that the demo was scraped from. This is a unique field for each match.*
